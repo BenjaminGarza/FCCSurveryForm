@@ -6,3 +6,10 @@
 .background-color{
     color: rgba(0,128,128,.35)
 }
+
+body {
+    margin: 0;
+   padding: 0;
+   text-align: center;
+   backgroud-color: skyblue;
+}
