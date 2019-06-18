@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+ 
   <head>
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
@@ -8,31 +9,37 @@
 
   <body>
 
-      <h1 id="title" >Survey Form</h1>
+      <h1 class="text-align" id="title" >Survey Form</h1>
 
-      <p>Let us know how to improve our website!</p>
+      
   
       <form action="" id="survey-form">
+          <p class="text-align" id="description">Let us know how to improve our website!</p>
+          
+          <div class="text-align">
         <label for="name" id="name-label">Name:</label>
         <input type="name" id="name" placeholder="Enter your full name" required>
         <label for="email" id="email-label">Email:</label>
         <input type="email" id="email" placeholder="Enter your email here..." required>
         <label for="number" id="number-label">Number:</label>
         <input type="number" id="number" min="15" max="30" placeholder="Enter your phone number here" required>
-        
-        <select id="dropdown">
+      </div>
+      <div class="text-align"> 
+        <select  id="dropdown">
           <option value="select" disabled>Select from</option>
           <option value="Full Time Student">Full Time Student</option>
           <option value="Part Time Student">Part Time Student</option>
           <option value="Not A Student">Not A Student</option>
         </select>
-        <div>
+      </div>
+        <div class="text-align">
         <label for="feedback" id="feedback-label">Do you like our website?</label> <br>
         <input type="radio" name="feedback" value="Yes">Yes<br>
         <input type="radio" name="feedback" value="No">No<br>
         <input type="radio" name="feedback" value="Not sure">Not Sure<br>
       </div>
 
+      <div class="text-align">
       <label for="">Things that should be improved in the future
         <br>
         (Check all that apply):
@@ -49,10 +56,11 @@
       <input type="checkbox" value="Forum" name="checkbox">Forum <br><br>
       <input type="checkbox" value="Additional-Courses" name="checkbox">Additional Courses <br><br><br>
 
-      <label for="comment">Any Comments or Suggestions?</label>
-      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <label for="comment">Any Comments or Suggestions?</label> <br>
+      <textarea name="comment" id="" cols="30" rows="10"></textarea> <br>
 
       <input type="submit" name="submit" id="submit">
+      </div>
 
       </form>
 
